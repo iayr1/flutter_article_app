@@ -1,97 +1,97 @@
-📰 Flutter Article App
-A modern Flutter application designed using Clean Architecture principles and powered by BLoC for robust state management. Users can seamlessly view, add, update, and delete articles, all within a beautiful and responsive UI.
+<h1>Flutter Article App</h1>
 
-🚀 Features
-📝 View all articles
+<p>A modern Flutter application designed using Clean Architecture principles and powered by BLoC for robust state management. Users can seamlessly view, add, update, and delete articles, all within a beautiful and responsive UI.</p>
 
-➕ Add new articles
+<h2>Features</h2>
+<ul>
+  <li>View all articles</li>
+  <li>Add new articles</li>
+  <li>Edit existing articles</li>
+  <li>Delete articles</li>
+  <li>Clean and scalable architecture</li>
+  <li>Reactive state management using BLoC</li>
+  <li>Elegant and responsive UI</li>
+  <li>Feedback via success and error SnackBars</li>
+  <li>Offline storage using <code>shared_preferences</code></li>
+</ul>
 
-✏️ Edit existing articles
+<h2>Getting Started</h2>
 
-❌ Delete articles
+<h3>Clone the Repository</h3>
+<pre><code>git clone https://github.com/iayr1/flutter_article_app.git
+cd flutter_article_app
+</code></pre>
 
-🧱 Clean and scalable architecture
+<h3>Install Dependencies</h3>
+<pre><code>flutter pub get</code></pre>
 
-🔄 Reactive state management using BLoC
+<h3>Run the App</h3>
+<pre><code>flutter run</code></pre>
 
-💡 Elegant and responsive UI
+<h2>Project Structure</h2>
+<pre><code>lib/
+├── core/                 # Utilities, themes, constants
+├── features/
+│   └── posts/
+│       ├── data/         # Data sources, models, repositories
+│       ├── domain/       # Entities, use cases, abstractions
+│       └── presentation/ # Blocs, events, states, UI widgets & pages
+├── locator.dart          # Dependency injection setup
+└── main.dart             # App entry point
+</code></pre>
 
-🔔 Feedback via success and error SnackBars
+<h2>Tech Stack</h2>
+<table>
+  <tr><th>Layer</th><th>Package</th></tr>
+  <tr><td>UI</td><td>Flutter SDK</td></tr>
+  <tr><td>State Management</td><td>flutter_bloc</td></tr>
+  <tr><td>Architecture</td><td>Clean Architecture</td></tr>
+  <tr><td>Networking</td><td>http</td></tr>
+  <tr><td>Dependency Injection</td><td>get_it</td></tr>
+  <tr><td>Code Utilities</td><td>equatable</td></tr>
+  <tr><td>Offline Storage</td><td>shared_preferences</td></tr>
+</table>
 
-📲 Getting Started
-1. Clone the repository
-   bash
-   Copy
-   Edit
-   git clone https://github.com/iayr1/flutter_article_app.git
-   cd flutter_article_app
-2. Install dependencies
-   bash
-   Copy
-   Edit
-   flutter pub get
-3. Run the app
-   bash
-   Copy
-   Edit
-   flutter run
-   🧱 Project Structure
-   bash
-   Copy
-   Edit
-   lib/
-   ├── core/                    # Utilities, themes, constants
-   ├── features/
-   │   └── posts/
-   │       ├── data/            # Data sources, models, repositories
-   │       ├── domain/          # Entities, use cases, abstractions
-   │       └── presentation/    # Blocs, events, states, UI widgets & pages
-   ├── locator.dart             # Dependency injection setup
-   └── main.dart                # App entry point
-   ⚙️ Tech Stack
-   Layer	Package
-   UI	Flutter SDK
-   State Management	flutter_bloc
-   Architecture	Clean Architecture
-   Networking	http
-   Dependency Injection	get_it
-   Code Utilities	equatable
+<h2>State Management</h2>
+<p>This app uses the BLoC pattern (<code>flutter_bloc</code>) to handle all UI-related state changes:</p>
+<ul>
+  <li>Events triggered by user interaction are passed to BLoCs.</li>
+  <li>BLoCs call Use Cases to execute business logic.</li>
+  <li>States are emitted in response to success or failure, updating the UI reactively.</li>
+</ul>
+<p>This ensures a clear separation of concerns and maintainable, testable code.</p>
 
-🧠 State Management
-This app uses the BLoC pattern (flutter_bloc) to handle all UI-related state changes.
+<h2>Testing</h2>
+<p>To run unit and widget tests:</p>
+<pre><code>flutter test</code></pre>
+<p>Tests can be added to verify BLoC logic, use cases, and UI components.</p>
 
-Events triggered by user interaction are passed to BLoCs.
+<h2>Limitations / To-Do</h2>
+<ul>
+  <li>No pagination in article list</li>
+  <li>No backend integration (ready for REST API)</li>
+  <li>Authentication not yet implemented</li>
+</ul>
 
-BLoCs call Use Cases to execute business logic.
+<h2>Screenshots</h2>
+<div style="display: flex; gap: 10px; overflow-x: auto;">
+  <img src="123.png" alt="App Screenshot 1" width="300"/>
+  <img src="124.png" alt="App Screenshot 2" width="300"/>
+  <img src="125.png" alt="App Screenshot 3" width="300"/>
+  <img src="126.png" alt="App Screenshot 4" width="300"/>
+</div>
 
-States are emitted in response to success or failure, updating the UI reactively.
+<h2>Demo Video</h2>
+<video width="600" controls>
+  <source src="videoforpost.webm" type="videoforpost.webm">
+</video>
 
-This ensures a clear separation of concerns and maintainable, testable code.
 
-🧪 Testing
-To run unit and widget tests:
 
-bash
-Copy
-Edit
-flutter test
-Tests can be added to verify BLoC logic, use cases, and UI components.
+<h2>Contributing</h2>
+<p>We welcome contributions! Please follow clean code practices and use meaningful naming conventions.</p>
 
-⚠️ Limitations / To-Do
-❌ No offline support (can be added with hive)
+<h2>License</h2>
+<p>This project is licensed under the MIT License.</p>
 
-🔄 No pagination in article list
-
-🌐 No backend integration (ready for REST API)
-
-🔐 Authentication not yet implemented
-
-📸 Screenshots
-<!-- Add screenshots below --> <!-- ![Home Screen](assets/screenshot1.png) -->
-🤝 Contributing
-We welcome contributions! Please follow clean code practices and use meaningful naming conventions.
-
-📄 License
-This project is licensed under the MIT License.
-
-Made with ❤️ using Flutter
+<p><strong>Made with Flutter</strong></p>
