@@ -81,6 +81,12 @@ cd flutter_article_app
   <img src="126.png" alt="App Screenshot 4" width="300"/>
 </div>
 
+<h2>Demo Video</h2>
+<video width="600" controls>
+  <source src="videoforpost.webm" type="videoforpost.webm">
+</video>
+
+
 
 <h2>Contributing</h2>
 <p>We welcome contributions! Please follow clean code practices and use meaningful naming conventions.</p>
