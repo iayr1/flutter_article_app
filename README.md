@@ -74,7 +74,13 @@ cd flutter_article_app
 </ul>
 
 <h2>Screenshots</h2>
-<p><img src="123.png" alt="App Screenshot" width="600"/></p>
+<div style="display: flex; gap: 10px; overflow-x: auto;">
+  <img src="123.png" alt="App Screenshot 1" width="300"/>
+  <img src="124.png" alt="App Screenshot 2" width="300"/>
+  <img src="125.png" alt="App Screenshot 3" width="300"/>
+  <img src="126.png" alt="App Screenshot 4" width="300"/>
+</div>
+
 
 <h2>Contributing</h2>
 <p>We welcome contributions! Please follow clean code practices and use meaningful naming conventions.</p>
