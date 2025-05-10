@@ -74,7 +74,7 @@ cd flutter_article_app
 </ul>
 
 <h2>Screenshots</h2>
-<p><img src="screenshot.png" alt="App Screenshot" width="600"/></p>
+<p><img src="123.png" alt="App Screenshot" width="600"/></p>
 
 <h2>Contributing</h2>
 <p>We welcome contributions! Please follow clean code practices and use meaningful naming conventions.</p>
