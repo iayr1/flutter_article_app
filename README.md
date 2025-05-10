@@ -83,8 +83,10 @@ cd flutter_article_app
 
 <h2>Demo Video</h2>
 <video width="600" controls>
-  <source src="videoforpost.webm" type="videoforpost.webm">
+  <source src="videoforpost.webm" type="video/webm">
+  Your browser does not support the video tag.
 </video>
+
 
 
 
